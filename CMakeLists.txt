@@ -21,11 +21,11 @@ set(CMAKE_EXE_LINKER_FLAGS "-lgcov")
 set(SIMPLE "runSimpleTests")
 add_executable(${SIMPLE} "test/src/simple_tests.cpp" "code/src/easy_math.cpp")
 
-set(FAILING "runFailingTests")
-add_executable(${FAILING} "test/src/failing_tests.cpp" "code/src/easy_math.cpp")
+set(FIZZ_BUZZ "runFizzBuzzTests")
+add_executable(${FIZZ_BUZZ} "test/src/fizzbuzz_tests.cpp" "code/src/fizz_buzz.cpp")
 
-set(FIXTURE "runFixtureTests")
-add_executable(${FIXTURE} "test/src/fixture_tests.cpp" "code/src/easy_math.cpp")
+set(STRING_REVERSE "runStringReverse")
+add_executable(${STRING_REVERSE} "test/src/string_reverse_tests.cpp" "code/src/string_reverse.cpp")
 
 set(PARAM "runParamTests")
 add_executable(${PARAM} "test/src/parametric_tests.cpp" "code/src/easy_math.cpp")

@@ -43,15 +43,15 @@ GREEN_B="\033[1;32m"  # Bold green
 # Create array of executable names to store functional results
 declare -A EXE
 EXE[runSimpleTests]=0
-EXE[runFailingTests]=0
-EXE[runFixtureTests]=0
+EXE[runFizzBuzzTests]=0
+EXE[runStringReverseTests]=0
 EXE[runParamTests]=0
 
 # Create array of executable names to store code coverage results
 declare -A COV
 COV[runSimpleTests]=0
-COV[runFailingTests]=0
-COV[runFixtureTests]=0
+COV[runFizzBuzzTests]=0
+COV[runStringReverseTests]=0
 COV[runParamTests]=0
 
 FAIL=0          # Flag if anything fails
