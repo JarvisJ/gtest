@@ -1,6 +1,5 @@
 #include "code/inc/fizz_buzz.h"
 #include <string>
-#include <algorithm> 
 /**
 *
 * Exercise 2:
@@ -8,6 +7,5 @@
 *
 */
 void string_reverse(std::string &input_string) {
-   std::reverse(input_string.begin(), input_string.end());
 }
 
